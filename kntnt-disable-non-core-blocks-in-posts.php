@@ -23,7 +23,7 @@ add_filter( 'allowed_block_types_all', function ( $allowed_blocks, $block_editor
 		$allowed_blocks = array_filter( $allowed_blocks, function ( $type ) {
 			return strncmp( $type, 'core/', 5 ) == 0;
 		} );
-		$allowed_blocks = array_values( $allowed_blocks ); // WordPress requires reindexin.
+		$allowed_blocks = array_values( $allowed_blocks ); // WordPress requires reindexing.
 	}
 	return $allowed_blocks;
 }, 10, 2 );
