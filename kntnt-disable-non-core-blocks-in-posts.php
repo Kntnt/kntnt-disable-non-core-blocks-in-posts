@@ -3,9 +3,9 @@
 /**
  * @wordpress-plugin
  * Plugin Name:       Kntnt Disable Non-Core Blocks in Posts
- * Plugin URI:        https://www.kntnt.com/
+ * Plugin URI:        https://github.com/Kntnt/kntnt-disable-non-core-blocks-in-posts
  * Description:       Disables all but core blocks in posts.
- * Version:           1.0.0
+ * Version:           1.0.1
  * Author:            Thomas Barregren
  * Author URI:        https://www.kntnt.com/
  * License:           GPL-3.0+
